@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/battery-storage.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.energy-generation]
+path = 'contracts/energy-generation.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
